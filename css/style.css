@@ -545,7 +545,8 @@ svg {
 
 .index-about-text p {
 	color: #666666;
-	line-height: 33px;
+	line-height: 33px;	/* line-height: 33px*/
+
 }
 
 .index-title h3 {
@@ -592,7 +593,7 @@ svg {
 	width: 210px;
 	font-size: 16px;
 	height: 55px;
-	line-height: 55px;
+	line-height: 55px;  /* line-height: 55px*/
 	background: #2d6dee;
 	text-align: center;
 	color: #ffffff;
@@ -991,7 +992,7 @@ svg {
 }
 
 .index-news-list li .text p {
-	line-height: 30px;
+	line-height: 30px;    /* line-height: 30px*/
 	color: #333333;
 	height: 70px;
 	margin-bottom: 20px;
@@ -1156,7 +1157,8 @@ svg {
 	top: -50px;
 	width: 84%;
 	margin: auto;
-	height: calc(100% - 360px);
+	height: calc(100% - 360px); 
+	/* line-height: 150%; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1168,6 +1170,8 @@ svg {
 	text-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 	font-size: 68px;
 	color: #ffffff;
+	line-height: 150%;
+
 }
 
 .msg #down-more {
